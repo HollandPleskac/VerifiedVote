@@ -1,8 +1,9 @@
-# #!/bin/bash
+#!/bin/bash
 
 set -e
 
 chmod +x scripts/bashinit.sh
+./scripts/bashinit.sh
 
 echo "🧹 Cleaning old files..."
 rm -rf proof.json public.json verification_key.json winner_0000.zkey winner_final.zkey witness.wtns Verifier.sol Winner.r1cs Winner.sym Winner_js pot12_0000.ptau pot12_0001.ptau pot12_final.ptau
